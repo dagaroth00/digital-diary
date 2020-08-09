@@ -1,11 +1,9 @@
 <?php 
-//echo "hioadsso";
-//echo ' ';
 
 $dbhost = "localhost";
-$dbuser = "id11039818_siddhesh";
-$dbpass = "siddhesh";
-$db = "id11039818_notes";
+$dbuser = "";  
+$dbpass = "";
+$db = "";
     $conn =  mysqli_connect($dbhost, $dbuser, $dbpass,$db);
 
         if (mysqli_connect_error()) {
